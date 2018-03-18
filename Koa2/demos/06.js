@@ -14,4 +14,4 @@ const main = ctx => {
 app.use(route.get('/', main));
 app.use(route.get('/about'), about);
 
-app.lisen(3300);
+app.listen(3300);
