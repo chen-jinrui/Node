@@ -11,6 +11,7 @@ const main = ctx => {
   ctx.response.body = 'Hello Koa2';
 };
 
+
 app.use(route.get('/', main));
 app.use(route.get('/about'), about);
 
